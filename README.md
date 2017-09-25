@@ -3,11 +3,13 @@ bluemix-hello-node with hidden environmental variables
 
 A "Hello World" server in node.js sample for Bluemix.
 Follow the instructions on: https://github.com/IBM-Bluemix/node-helloworld
-This project does the following modifications:
-1) Creates an .env file add the following sample variables:
+Follow the steps below. You have to do step 1 yourself! 
+
+1) Create a .env file add the following sample variables. 
 FOO = boo;
 TOO = shoo;
 
+This project does the following modifications:
 2) Adds the following dependency in package.json (note that you might need to change the version of dotenv)
 "dotenv": "^4.0.0",
 

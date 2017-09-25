@@ -1,5 +1,6 @@
 var express = require("express"),
     app = express();
+require('dotenv').config();
 
 var port = process.env.PORT || 8080;
 
@@ -12,5 +13,6 @@ app.get("/sayHello", function (request, response) {
 
 app.listen(port);
 console.log("Listening on port ", port);
+console.log(process.env.FOO)
 
 require("cf-deployment-tracker-client").track();
